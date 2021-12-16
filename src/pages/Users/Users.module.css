@@ -1,0 +1,13 @@
+.users {
+  padding-top: 30px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .users {
+    padding: 20px 10px;
+  }
+}
